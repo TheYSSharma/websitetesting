@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-28T15:50:06 GST" name="Surefire suite" finished-at="2023-08-28T15:57:24 GST" duration-ms="437801">
+    <groups>
+    </groups>
+    <test started-at="2023-08-28T15:50:06 GST" name="Surefire test" finished-at="2023-08-28T15:57:24 GST" duration-ms="437801">
+      <class name="Test_Scenerio.Testmethods">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:Test_Scenerio.Testmethods@3c130745]" started-at="2023-08-28T15:50:06 GST" name="beforetest" finished-at="2023-08-28T15:50:13 GST" duration-ms="6940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="GetLinks()[pri:0, instance:Test_Scenerio.Testmethods@3c130745]" started-at="2023-08-28T15:50:13 GST" name="GetLinks" finished-at="2023-08-28T15:57:24 GST" duration-ms="430828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetLinks -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:Test_Scenerio.Testmethods@3c130745]" started-at="2023-08-28T15:57:24 GST" name="aftertest" finished-at="2023-08-28T15:57:24 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- Test_Scenerio.Testmethods -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

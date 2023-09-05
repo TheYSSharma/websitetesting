@@ -1,0 +1,1814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="438.32" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\yash\eclipse-workspace\AlFardanWebsite\target\test-classes;C:\Users\yash\eclipse-workspace\AlFardanWebsite\target\classes;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-java\4.11.0\selenium-java-4.11.0.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-api\4.11.0\selenium-api-4.11.0.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.11.0\selenium-chrome-driver-4.11.0.jar;C:\Users\yash\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\yash\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\yash\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\yash\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\yash\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\yash\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\yash\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\yash\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.11.0\selenium-chromium-driver-4.11.0.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-json\4.11.0\selenium-json-4.11.0.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.11.0\selenium-manager-4.11.0.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.11.0\selenium-devtools-v113-4.11.0.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v114\4.11.0\selenium-devtools-v114-4.11.0.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v115\4.11.0\selenium-devtools-v115-4.11.0.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.11.0\selenium-devtools-v85-4.11.0.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.11.0\selenium-edge-driver-4.11.0.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.11.0\selenium-firefox-driver-4.11.0.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-http\4.11.0\selenium-http-4.11.0.jar;C:\Users\yash\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.11.0\selenium-ie-driver-4.11.0.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.11.0\selenium-remote-driver-4.11.0.jar;C:\Users\yash\.m2\repository\io\netty\netty-buffer\4.1.92.Final\netty-buffer-4.1.92.Final.jar;C:\Users\yash\.m2\repository\io\netty\netty-codec-http\4.1.92.Final\netty-codec-http-4.1.92.Final.jar;C:\Users\yash\.m2\repository\io\netty\netty-codec\4.1.92.Final\netty-codec-4.1.92.Final.jar;C:\Users\yash\.m2\repository\io\netty\netty-handler\4.1.92.Final\netty-handler-4.1.92.Final.jar;C:\Users\yash\.m2\repository\io\netty\netty-common\4.1.92.Final\netty-common-4.1.92.Final.jar;C:\Users\yash\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.92.Final\netty-transport-classes-epoll-4.1.92.Final.jar;C:\Users\yash\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.92.Final\netty-transport-classes-kqueue-4.1.92.Final.jar;C:\Users\yash\.m2\repository\io\netty\netty-transport-native-epoll\4.1.92.Final\netty-transport-native-epoll-4.1.92.Final.jar;C:\Users\yash\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.92.Final\netty-transport-native-kqueue-4.1.92.Final.jar;C:\Users\yash\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.92.Final\netty-transport-native-unix-common-4.1.92.Final.jar;C:\Users\yash\.m2\repository\io\netty\netty-transport\4.1.92.Final\netty-transport-4.1.92.Final.jar;C:\Users\yash\.m2\repository\io\netty\netty-resolver\4.1.92.Final\netty-resolver-4.1.92.Final.jar;C:\Users\yash\.m2\repository\io\opentelemetry\opentelemetry-api\1.26.0\opentelemetry-api-1.26.0.jar;C:\Users\yash\.m2\repository\io\opentelemetry\opentelemetry-context\1.26.0\opentelemetry-context-1.26.0.jar;C:\Users\yash\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.26.0\opentelemetry-exporter-logging-1.26.0.jar;C:\Users\yash\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.26.0\opentelemetry-sdk-metrics-1.26.0.jar;C:\Users\yash\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.26.0-alpha\opentelemetry-extension-incubator-1.26.0-alpha.jar;C:\Users\yash\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.26.0-alpha\opentelemetry-sdk-logs-1.26.0-alpha.jar;C:\Users\yash\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.26.0-alpha\opentelemetry-api-logs-1.26.0-alpha.jar;C:\Users\yash\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.26.0-alpha\opentelemetry-api-events-1.26.0-alpha.jar;C:\Users\yash\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.26.0\opentelemetry-sdk-common-1.26.0.jar;C:\Users\yash\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.26.0\opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar;C:\Users\yash\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.26.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar;C:\Users\yash\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.26.0\opentelemetry-sdk-trace-1.26.0.jar;C:\Users\yash\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.26.0\opentelemetry-sdk-1.26.0.jar;C:\Users\yash\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.26.0-alpha\opentelemetry-semconv-1.26.0-alpha.jar;C:\Users\yash\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\yash\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\yash\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\yash\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\yash\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\yash\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\yash\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\yash\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\yash\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\yash\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\yash\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.11.0\selenium-safari-driver-4.11.0.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-support\4.11.0\selenium-support-4.11.0.jar;C:\Users\yash\.m2\repository\io\github\bonigarcia\webdrivermanager\5.4.1\webdrivermanager-5.4.1.jar;C:\Users\yash\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\yash\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\yash\.m2\repository\com\github\docker-java\docker-java\3.3.2\docker-java-3.3.2.jar;C:\Users\yash\.m2\repository\com\github\docker-java\docker-java-core\3.3.2\docker-java-core-3.3.2.jar;C:\Users\yash\.m2\repository\com\github\docker-java\docker-java-api\3.3.2\docker-java-api-3.3.2.jar;C:\Users\yash\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\yash\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\yash\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\yash\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\yash\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\yash\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\yash\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\yash\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.2\docker-java-transport-httpclient5-3.3.2.jar;C:\Users\yash\.m2\repository\com\github\docker-java\docker-java-transport\3.3.2\docker-java-transport-3.3.2.jar;C:\Users\yash\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\yash\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\yash\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\yash\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\yash\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\yash\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\yash\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\yash\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\yash\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\yash\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\yash\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\yash\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\yash\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\yash\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\yash\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\yash\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\yash\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\yash\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\yash\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\yash\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\yash\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\yash\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\yash\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Dubai"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="AE"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\yash\AppData\Local\Temp\surefire2165620722784230666\surefirebooter-20230828155005910_3.jar C:\Users\yash\AppData\Local\Temp\surefire2165620722784230666 2023-08-28T15-50-04_196-jvmRun1 surefire-20230828155005910_1tmp surefire_0-20230828155005910_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\yash\eclipse-workspace\AlFardanWebsite\target\test-classes;C:\Users\yash\eclipse-workspace\AlFardanWebsite\target\classes;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-java\4.11.0\selenium-java-4.11.0.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-api\4.11.0\selenium-api-4.11.0.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.11.0\selenium-chrome-driver-4.11.0.jar;C:\Users\yash\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\yash\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\yash\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\yash\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\yash\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\yash\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\yash\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\yash\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.11.0\selenium-chromium-driver-4.11.0.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-json\4.11.0\selenium-json-4.11.0.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.11.0\selenium-manager-4.11.0.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v113\4.11.0\selenium-devtools-v113-4.11.0.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v114\4.11.0\selenium-devtools-v114-4.11.0.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v115\4.11.0\selenium-devtools-v115-4.11.0.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.11.0\selenium-devtools-v85-4.11.0.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.11.0\selenium-edge-driver-4.11.0.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.11.0\selenium-firefox-driver-4.11.0.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-http\4.11.0\selenium-http-4.11.0.jar;C:\Users\yash\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.11.0\selenium-ie-driver-4.11.0.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.11.0\selenium-remote-driver-4.11.0.jar;C:\Users\yash\.m2\repository\io\netty\netty-buffer\4.1.92.Final\netty-buffer-4.1.92.Final.jar;C:\Users\yash\.m2\repository\io\netty\netty-codec-http\4.1.92.Final\netty-codec-http-4.1.92.Final.jar;C:\Users\yash\.m2\repository\io\netty\netty-codec\4.1.92.Final\netty-codec-4.1.92.Final.jar;C:\Users\yash\.m2\repository\io\netty\netty-handler\4.1.92.Final\netty-handler-4.1.92.Final.jar;C:\Users\yash\.m2\repository\io\netty\netty-common\4.1.92.Final\netty-common-4.1.92.Final.jar;C:\Users\yash\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.92.Final\netty-transport-classes-epoll-4.1.92.Final.jar;C:\Users\yash\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.92.Final\netty-transport-classes-kqueue-4.1.92.Final.jar;C:\Users\yash\.m2\repository\io\netty\netty-transport-native-epoll\4.1.92.Final\netty-transport-native-epoll-4.1.92.Final.jar;C:\Users\yash\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.92.Final\netty-transport-native-kqueue-4.1.92.Final.jar;C:\Users\yash\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.92.Final\netty-transport-native-unix-common-4.1.92.Final.jar;C:\Users\yash\.m2\repository\io\netty\netty-transport\4.1.92.Final\netty-transport-4.1.92.Final.jar;C:\Users\yash\.m2\repository\io\netty\netty-resolver\4.1.92.Final\netty-resolver-4.1.92.Final.jar;C:\Users\yash\.m2\repository\io\opentelemetry\opentelemetry-api\1.26.0\opentelemetry-api-1.26.0.jar;C:\Users\yash\.m2\repository\io\opentelemetry\opentelemetry-context\1.26.0\opentelemetry-context-1.26.0.jar;C:\Users\yash\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.26.0\opentelemetry-exporter-logging-1.26.0.jar;C:\Users\yash\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.26.0\opentelemetry-sdk-metrics-1.26.0.jar;C:\Users\yash\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.26.0-alpha\opentelemetry-extension-incubator-1.26.0-alpha.jar;C:\Users\yash\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.26.0-alpha\opentelemetry-sdk-logs-1.26.0-alpha.jar;C:\Users\yash\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.26.0-alpha\opentelemetry-api-logs-1.26.0-alpha.jar;C:\Users\yash\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.26.0-alpha\opentelemetry-api-events-1.26.0-alpha.jar;C:\Users\yash\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.26.0\opentelemetry-sdk-common-1.26.0.jar;C:\Users\yash\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.26.0\opentelemetry-sdk-extension-autoconfigure-spi-1.26.0.jar;C:\Users\yash\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.26.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.26.0-alpha.jar;C:\Users\yash\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.26.0\opentelemetry-sdk-trace-1.26.0.jar;C:\Users\yash\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.26.0\opentelemetry-sdk-1.26.0.jar;C:\Users\yash\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.26.0-alpha\opentelemetry-semconv-1.26.0-alpha.jar;C:\Users\yash\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\yash\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\yash\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\yash\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\yash\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\yash\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\yash\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\yash\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\yash\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\yash\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\yash\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.11.0\selenium-safari-driver-4.11.0.jar;C:\Users\yash\.m2\repository\org\seleniumhq\selenium\selenium-support\4.11.0\selenium-support-4.11.0.jar;C:\Users\yash\.m2\repository\io\github\bonigarcia\webdrivermanager\5.4.1\webdrivermanager-5.4.1.jar;C:\Users\yash\.m2\repository\org\slf4j\slf4j-api\2.0.7\slf4j-api-2.0.7.jar;C:\Users\yash\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\yash\.m2\repository\com\github\docker-java\docker-java\3.3.2\docker-java-3.3.2.jar;C:\Users\yash\.m2\repository\com\github\docker-java\docker-java-core\3.3.2\docker-java-core-3.3.2.jar;C:\Users\yash\.m2\repository\com\github\docker-java\docker-java-api\3.3.2\docker-java-api-3.3.2.jar;C:\Users\yash\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\yash\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\yash\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\yash\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\yash\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\yash\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\yash\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\yash\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.2\docker-java-transport-httpclient5-3.3.2.jar;C:\Users\yash\.m2\repository\com\github\docker-java\docker-java-transport\3.3.2\docker-java-transport-3.3.2.jar;C:\Users\yash\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\yash\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\yash\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\yash\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\yash\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\yash\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\yash\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\yash\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\yash\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\yash\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\yash\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\yash\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\yash\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\yash\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\yash\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\yash\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\yash\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\yash\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\yash\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\yash\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\yash\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\yash\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\yash\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\yash"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\yash\eclipse-workspace\AlFardanWebsite"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\yash\AppData\Local\Temp\surefire2165620722784230666\surefirebooter-20230828155005910_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
+    <property name="user.name" value="yash"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\yash\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\yash\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.7"/>
+    <property name="user.dir" value="C:\Users\yash\eclipse-workspace\AlFardanWebsite"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17\bin;C:\Users\LENOVO\Downloads\apache-maven-3.9.3-bin\apache-maven-3.9.3\bin;C:\Users\yash\Downloads\apache-maven-3.9.3-bin\apache-maven-3.9.3\bin;C:\Users\yash\AppData\Local\Microsoft\WindowsApps;C:\Users\yash\AppData\Local\Programs\Git\cmd;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.7+8-LTS-224"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="GetLinks" classname="Test_Scenerio.Testmethods" time="430.83">
+    <system-out><![CDATA[HOMEPAGE
+1)Regulated by the Central Bank of the UAE - https://alfardanexchange.com/
+2)ABOUT US - https://alfardanexchange.com/en/about
+3)SERVICES - null
+4) - https://alfardanexchange.com/en/money-transfer
+5) - https://alfardanexchange.com/en/foreign-exchange
+6) - https://alfardanexchange.com/en/value-added-services
+7) - https://alfardanexchange.com/travelez-classic
+8) - https://alfardanexchange.com/travelez-platinum
+9) - https://alfardanexchange.com/en/wps-payroll-service
+10) - https://alfardanexchange.com/en/western-union
+11) - https://alfardanexchange.com/alfaclub
+12) - https://alfardanexchange.com/alfapay
+13)BRANCHES - https://alfardanexchange.com/branches/all
+14)CORPORATE - https://alfardanexchange.com/en/corporate
+15)CAREERS - https://alfardanexchange.com/en/careers
+16)MEDIA - null
+17) - https://alfardanexchange.com/en/blog
+18) - https://alfardanexchange.com/en/news
+19) - https://alfardanexchange.com/en/promotions
+20) - null
+21)Login / Register - https://alfardanexchange.com/coming-soon
+22)عربى - https://alfardanexchange.com/ar
+23) - tel:600522265
+24) - mailto:customercare@alfardanexchange.com
+25) - https://alfardanexchange.com/alfapay
+26) - https://alfardanexchange.com/alfapay
+27)  - https://alfardanexchange.com/travelez-platinum
+28) - https://alfardanexchange.com/travelez-platinum
+29) - https://alfardanexchange.com/alfapay
+30) - https://alfardanexchange.com/alfapay
+31) - https://alfardanexchange.com/travelez-platinum
+32) - https://alfardanexchange.com/travelez-platinum
+33) - null
+34) - null
+35) - null
+36) - null
+37) - null
+38) - null
+39) - null
+40) - null
+41) - null
+42) - null
+43) - null
+44) - null
+45) - null
+46) - null
+47) - null
+48) - null
+49) - null
+50) - null
+51) - null
+52) - null
+53) - null
+54) - null
+55) - null
+56) - null
+57) - null
+58) - null
+59) - null
+60) - null
+61) - null
+62) - null
+63) - null
+64) - null
+65) - null
+66) - null
+67) - null
+68) - null
+69) - null
+70) - null
+71) - null
+72) - null
+73) - null
+74) - null
+75) - null
+76) - null
+77) - null
+78) - null
+79) - null
+80) - null
+81) - null
+82) - null
+83) - null
+84) - null
+85) - null
+86) - null
+87) - null
+88) - null
+89) - null
+90) - null
+91) - null
+92) - null
+93) - null
+94) - null
+95) - null
+96) - null
+97) - null
+98) - null
+99) - null
+100) - null
+101) - null
+102) - null
+103) - null
+104) - null
+105) - null
+106) - null
+107) - null
+108) - null
+109) - null
+110) - null
+111) - null
+112) - null
+113) - null
+114) - null
+115) - null
+116) - null
+117) - null
+118) - null
+119) - null
+120) - null
+121) - null
+122) - null
+123) - null
+124) - null
+125) - null
+126) - null
+127) - null
+128) - null
+129) - null
+130) - null
+131) - null
+132) - null
+133) - null
+134) - null
+135) - null
+136) - null
+137) - null
+138) - null
+139) - null
+140) - null
+141) - null
+142) - null
+143) - null
+144) - null
+145) - null
+146) - null
+147) - null
+148) - null
+149) - null
+150) - null
+151) - null
+152) - null
+153) - null
+154) - null
+155) - null
+156) - null
+157) - null
+158) - null
+159) - null
+160) - null
+161) - null
+162) - null
+163) - null
+164) - null
+165) - null
+166) - null
+167) - null
+168) - null
+169) - null
+170) - null
+171) - null
+172) - null
+173) - null
+174) - null
+175) - null
+176) - null
+177) - null
+178) - null
+179) - null
+180) - null
+181) - null
+182) - null
+183) - null
+184) - null
+185) - null
+186) - null
+187) - null
+188) - null
+189) - null
+190) - null
+191) - null
+192) - null
+193) - null
+194) - null
+195) - null
+196) - null
+197) - null
+198) - null
+199) - null
+200) - null
+201) - null
+202) - null
+203) - null
+204) - null
+205) - null
+206) - null
+207) - null
+208) - null
+209) - null
+210) - null
+211) - null
+212) - null
+213) - null
+214) - null
+215) - null
+216) - null
+217) - null
+218) - null
+219) - null
+220) - null
+221) - null
+222) - null
+223) - null
+224) - null
+225) - null
+226) - null
+227) - null
+228) - null
+229) - null
+230) - null
+231) - null
+232) - null
+233) - null
+234) - null
+235) - null
+236) - null
+237) - null
+238) - null
+239) - null
+240) - null
+241) - null
+242) - null
+243) - null
+244) - null
+245) - null
+246) - null
+247) - null
+248) - null
+249) - null
+250) - null
+251) - null
+252) - null
+253) - null
+254) - null
+255) - null
+256) - null
+257) - null
+258) - null
+259) - null
+260) - null
+261) - null
+262) - null
+263) - null
+264) - null
+265) - null
+266) - null
+267) - null
+268) - null
+269) - null
+270) - null
+271) - null
+272) - null
+273) - null
+274) - null
+275) - null
+276)MONEY TRANSFER
+Wide range of services for quick and easy money transfer worldwide - https://alfardanexchange.com/money-transfer
+277)FOREIGN EXCHANGE
+Buy and sell foreign currency at the most competitive rates in the market - https://alfardanexchange.com/foreign-exchange
+278)VALUE-ADDED SERVICES
+Payment solutions catered to your every day needs - https://alfardanexchange.com/value-added-services
+279)PREPAID CARDS
+Travel worldwide with your own personalized, secure and convenient prepaid cards - https://alfardanexchange.com/travelez-platinum
+280)PAYROLL SERVICES
+Simplified, cost effective and straightforward payroll service solutions - https://alfardanexchange.com/wps-payroll-service
+281)AFEX MOBILE APPLICATION
+All new mobile application to send money when you want, where you want - 
+282)WESTERN UNION MONEY TRANSFER
+WU's online remittance platform for secure fund transfer, wherever you are, whenever you need - https://alfardanexchange.com/western-union
+283)VIEW ALL BRANCHES - https://alfardanexchange.com/branches/all
+284)600522265 - tel:600522265
+285) - https://www.facebook.com/alfardanuae/
+286) - https://www.instagram.com/alfardanexchange/
+287) - https://twitter.com/alfardanuae
+288) - https://www.youtube.com/user/AlFardanExchange
+289) - https://www.linkedin.com/company/alfardanexchange/
+290)About Us - https://alfardanexchange.com/en/about
+291)Careers - https://alfardanexchange.com/en/careers
+292)Contact - https://alfardanexchange.com/en/contact
+293)Corporate Sustainability - https://alfardanexchange.com/en/csr
+294)FAQs - https://alfardanexchange.com/en/faqs
+295)Fees & Charges - https://alfardanexchange.com/en/fees-and-charges
+296)Fraud Prevention - https://alfardanexchange.com/en/fraud-prevention
+297)Terms - https://alfardanexchange.com/en/termsandconditions
+298)Privacy Policy - https://alfardanexchange.com/en/privacy-policy
+299)AML Policies - https://alfardanexchange.com/en/aml-policies
+300) - https://alfardanexchange.com/termsandconditions
+301) - https://alfardanexchange.com/privacy-policy
+https://alfardanexchange.com/ - OK
+https://alfardanexchange.com/en/about - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/en/money-transfer - OK
+https://alfardanexchange.com/en/foreign-exchange - OK
+https://alfardanexchange.com/en/value-added-services - OK
+https://alfardanexchange.com/travelez-classic - OK
+https://alfardanexchange.com/travelez-platinum - OK
+https://alfardanexchange.com/en/wps-payroll-service - OK
+https://alfardanexchange.com/en/western-union - OK
+https://alfardanexchange.com/alfaclub - OK
+https://alfardanexchange.com/alfapay - OK
+https://alfardanexchange.com/branches/all - OK
+https://alfardanexchange.com/en/corporate - OK
+https://alfardanexchange.com/en/careers - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/en/blog - OK
+https://alfardanexchange.com/en/news - OK
+https://alfardanexchange.com/en/promotions - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/coming-soon - OK
+https://alfardanexchange.com/ar - OK
+tel:600522265 - is a broken link - from catch
+mailto:customercare@alfardanexchange.com - is a broken link - from catch
+https://alfardanexchange.com/alfapay - OK
+https://alfardanexchange.com/alfapay - OK
+https://alfardanexchange.com/travelez-platinum - OK
+https://alfardanexchange.com/travelez-platinum - OK
+https://alfardanexchange.com/alfapay - OK
+https://alfardanexchange.com/alfapay - OK
+https://alfardanexchange.com/travelez-platinum - OK
+https://alfardanexchange.com/travelez-platinum - OK
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+https://alfardanexchange.com/money-transfer - OK
+https://alfardanexchange.com/foreign-exchange - OK
+https://alfardanexchange.com/value-added-services - OK
+https://alfardanexchange.com/travelez-platinum - OK
+https://alfardanexchange.com/wps-payroll-service - OK
+ - is a broken link - from catch
+https://alfardanexchange.com/western-union - OK
+https://alfardanexchange.com/branches/all - OK
+tel:600522265 - is a broken link - from catch
+https://www.facebook.com/alfardanuae/ - OK
+https://www.instagram.com/alfardanexchange/ - OK
+https://twitter.com/alfardanuae - is a broken link - from catch
+https://www.youtube.com/user/AlFardanExchange - OK
+https://www.linkedin.com/company/alfardanexchange/ - Request denied - is a broken link
+https://alfardanexchange.com/en/about - OK
+https://alfardanexchange.com/en/careers - OK
+https://alfardanexchange.com/en/contact - OK
+https://alfardanexchange.com/en/csr - OK
+https://alfardanexchange.com/en/faqs - OK
+https://alfardanexchange.com/en/fees-and-charges - OK
+https://alfardanexchange.com/en/fraud-prevention - OK
+https://alfardanexchange.com/en/termsandconditions - OK
+https://alfardanexchange.com/en/privacy-policy - OK
+https://alfardanexchange.com/en/aml-policies - OK
+https://alfardanexchange.com/termsandconditions - OK
+https://alfardanexchange.com/privacy-policy - OK
+ABOUT US
+1)Regulated by the Central Bank of the UAE - https://alfardanexchange.com/
+2)ABOUT US - https://alfardanexchange.com/en/about
+3)SERVICES - null
+4) - https://alfardanexchange.com/en/money-transfer
+5) - https://alfardanexchange.com/en/foreign-exchange
+6) - https://alfardanexchange.com/en/value-added-services
+7) - https://alfardanexchange.com/travelez-classic
+8) - https://alfardanexchange.com/travelez-platinum
+9) - https://alfardanexchange.com/en/wps-payroll-service
+10) - https://alfardanexchange.com/en/western-union
+11) - https://alfardanexchange.com/alfaclub
+12) - https://alfardanexchange.com/alfapay
+13)BRANCHES - https://alfardanexchange.com/branches/all
+14)CORPORATE - https://alfardanexchange.com/en/corporate
+15)CAREERS - https://alfardanexchange.com/en/careers
+16)MEDIA - null
+17) - https://alfardanexchange.com/en/blog
+18) - https://alfardanexchange.com/en/news
+19) - https://alfardanexchange.com/en/promotions
+20) - null
+21)Login / Register - https://alfardanexchange.com/coming-soon
+22)عربى - https://alfardanexchange.com/ar/about
+23) - tel:600522265
+24) - mailto:customercare@alfardanexchange.com
+25) - https://www.facebook.com/alfardanuae/
+26) - https://www.instagram.com/alfardanexchange/
+27) - https://twitter.com/alfardanuae
+28) - https://www.youtube.com/user/AlFardanExchange
+29) - https://www.linkedin.com/company/alfardanexchange/
+30)About Us - https://alfardanexchange.com/en/about
+31)Careers - https://alfardanexchange.com/en/careers
+32)Contact - https://alfardanexchange.com/en/contact
+33)Corporate Sustainability - https://alfardanexchange.com/en/csr
+34)FAQs - https://alfardanexchange.com/en/faqs
+35)Fees & Charges - https://alfardanexchange.com/en/fees-and-charges
+36)Fraud Prevention - https://alfardanexchange.com/en/fraud-prevention
+37)Terms - https://alfardanexchange.com/en/termsandconditions
+38)Privacy Policy - https://alfardanexchange.com/en/privacy-policy
+39)AML Policies - https://alfardanexchange.com/en/aml-policies
+40) - https://alfardanexchange.com/termsandconditions
+41) - https://alfardanexchange.com/privacy-policy
+https://alfardanexchange.com/ - OK
+https://alfardanexchange.com/en/about - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/en/money-transfer - OK
+https://alfardanexchange.com/en/foreign-exchange - OK
+https://alfardanexchange.com/en/value-added-services - OK
+https://alfardanexchange.com/travelez-classic - OK
+https://alfardanexchange.com/travelez-platinum - OK
+https://alfardanexchange.com/en/wps-payroll-service - OK
+https://alfardanexchange.com/en/western-union - OK
+https://alfardanexchange.com/alfaclub - OK
+https://alfardanexchange.com/alfapay - OK
+https://alfardanexchange.com/branches/all - OK
+https://alfardanexchange.com/en/corporate - OK
+https://alfardanexchange.com/en/careers - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/en/blog - OK
+https://alfardanexchange.com/en/news - OK
+https://alfardanexchange.com/en/promotions - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/coming-soon - OK
+https://alfardanexchange.com/ar/about - OK
+tel:600522265 - is a broken link - from catch
+mailto:customercare@alfardanexchange.com - is a broken link - from catch
+https://www.facebook.com/alfardanuae/ - OK
+https://www.instagram.com/alfardanexchange/ - OK
+https://twitter.com/alfardanuae - is a broken link - from catch
+https://www.youtube.com/user/AlFardanExchange - OK
+https://www.linkedin.com/company/alfardanexchange/ - Request denied - is a broken link
+https://alfardanexchange.com/en/about - OK
+https://alfardanexchange.com/en/careers - OK
+https://alfardanexchange.com/en/contact - OK
+https://alfardanexchange.com/en/csr - OK
+https://alfardanexchange.com/en/faqs - OK
+https://alfardanexchange.com/en/fees-and-charges - OK
+https://alfardanexchange.com/en/fraud-prevention - OK
+https://alfardanexchange.com/en/termsandconditions - OK
+https://alfardanexchange.com/en/privacy-policy - OK
+https://alfardanexchange.com/en/aml-policies - OK
+https://alfardanexchange.com/termsandconditions - OK
+https://alfardanexchange.com/privacy-policy - OK
+Services - Money Transfer
+1)Regulated by the Central Bank of the UAE - https://alfardanexchange.com/
+2)ABOUT US - https://alfardanexchange.com/en/about
+3)SERVICES - null
+4) - https://alfardanexchange.com/en/money-transfer
+5) - https://alfardanexchange.com/en/foreign-exchange
+6) - https://alfardanexchange.com/en/value-added-services
+7) - https://alfardanexchange.com/travelez-classic
+8) - https://alfardanexchange.com/travelez-platinum
+9) - https://alfardanexchange.com/en/wps-payroll-service
+10) - https://alfardanexchange.com/en/western-union
+11) - https://alfardanexchange.com/alfaclub
+12) - https://alfardanexchange.com/alfapay
+13)BRANCHES - https://alfardanexchange.com/branches/all
+14)CORPORATE - https://alfardanexchange.com/en/corporate
+15)CAREERS - https://alfardanexchange.com/en/careers
+16)MEDIA - null
+17) - https://alfardanexchange.com/en/blog
+18) - https://alfardanexchange.com/en/news
+19) - https://alfardanexchange.com/en/promotions
+20) - null
+21)Login / Register - https://alfardanexchange.com/coming-soon
+22)عربى - https://alfardanexchange.com/ar/money-transfer
+23) - tel:600522265
+24) - mailto:customercare@alfardanexchange.com
+25)WIRE TRANSFER - https://alfardanexchange.com/money-transfer#tab-1
+26)CREDIT TO MOBILE WALLET - https://alfardanexchange.com/money-transfer#tab-2
+27)ONLINE REMITTANCE - https://alfardanexchange.com/money-transfer#tab-3
+28) - https://alfardanexchange.com/key-facts-statement-remittance
+29) - https://alfardanexchange.com/key-facts-statement-remittance
+30)Key Facts Statement - Remittance - https://alfardanexchange.com/key-facts-statement-remittance
+31) - https://www.facebook.com/alfardanuae/
+32) - https://www.instagram.com/alfardanexchange/
+33) - https://twitter.com/alfardanuae
+34) - https://www.youtube.com/user/AlFardanExchange
+35) - https://www.linkedin.com/company/alfardanexchange/
+36)About Us - https://alfardanexchange.com/en/about
+37)Careers - https://alfardanexchange.com/en/careers
+38)Contact - https://alfardanexchange.com/en/contact
+39)Corporate Sustainability - https://alfardanexchange.com/en/csr
+40)FAQs - https://alfardanexchange.com/en/faqs
+41)Fees & Charges - https://alfardanexchange.com/en/fees-and-charges
+42)Fraud Prevention - https://alfardanexchange.com/en/fraud-prevention
+43)Terms - https://alfardanexchange.com/en/termsandconditions
+44)Privacy Policy - https://alfardanexchange.com/en/privacy-policy
+45)AML Policies - https://alfardanexchange.com/en/aml-policies
+46) - https://alfardanexchange.com/termsandconditions
+47) - https://alfardanexchange.com/privacy-policy
+https://alfardanexchange.com/ - OK
+https://alfardanexchange.com/en/about - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/en/money-transfer - OK
+https://alfardanexchange.com/en/foreign-exchange - OK
+https://alfardanexchange.com/en/value-added-services - OK
+https://alfardanexchange.com/travelez-classic - OK
+https://alfardanexchange.com/travelez-platinum - OK
+https://alfardanexchange.com/en/wps-payroll-service - OK
+https://alfardanexchange.com/en/western-union - OK
+https://alfardanexchange.com/alfaclub - OK
+https://alfardanexchange.com/alfapay - OK
+https://alfardanexchange.com/branches/all - OK
+https://alfardanexchange.com/en/corporate - OK
+https://alfardanexchange.com/en/careers - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/en/blog - OK
+https://alfardanexchange.com/en/news - OK
+https://alfardanexchange.com/en/promotions - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/coming-soon - OK
+https://alfardanexchange.com/ar/money-transfer - OK
+tel:600522265 - is a broken link - from catch
+mailto:customercare@alfardanexchange.com - is a broken link - from catch
+https://alfardanexchange.com/money-transfer#tab-1 - OK
+https://alfardanexchange.com/money-transfer#tab-2 - OK
+https://alfardanexchange.com/money-transfer#tab-3 - OK
+https://alfardanexchange.com/key-facts-statement-remittance - OK
+https://alfardanexchange.com/key-facts-statement-remittance - OK
+https://alfardanexchange.com/key-facts-statement-remittance - OK
+https://www.facebook.com/alfardanuae/ - OK
+https://www.instagram.com/alfardanexchange/ - OK
+https://twitter.com/alfardanuae - is a broken link - from catch
+https://www.youtube.com/user/AlFardanExchange - OK
+https://www.linkedin.com/company/alfardanexchange/ - Request denied - is a broken link
+https://alfardanexchange.com/en/about - OK
+https://alfardanexchange.com/en/careers - OK
+https://alfardanexchange.com/en/contact - OK
+https://alfardanexchange.com/en/csr - OK
+https://alfardanexchange.com/en/faqs - OK
+https://alfardanexchange.com/en/fees-and-charges - OK
+https://alfardanexchange.com/en/fraud-prevention - OK
+https://alfardanexchange.com/en/termsandconditions - OK
+https://alfardanexchange.com/en/privacy-policy - OK
+https://alfardanexchange.com/en/aml-policies - OK
+https://alfardanexchange.com/termsandconditions - OK
+https://alfardanexchange.com/privacy-policy - OK
+Services - Foreign Exchange
+1)Regulated by the Central Bank of the UAE-https://alfardanexchange.com/
+2)ABOUT US-https://alfardanexchange.com/en/about
+3)SERVICES-null
+4)-https://alfardanexchange.com/en/money-transfer
+5)-https://alfardanexchange.com/en/foreign-exchange
+6)-https://alfardanexchange.com/en/value-added-services
+7)-https://alfardanexchange.com/travelez-classic
+8)-https://alfardanexchange.com/travelez-platinum
+9)-https://alfardanexchange.com/en/wps-payroll-service
+10)-https://alfardanexchange.com/en/western-union
+11)-https://alfardanexchange.com/alfaclub
+12)-https://alfardanexchange.com/alfapay
+13)BRANCHES-https://alfardanexchange.com/branches/all
+14)CORPORATE-https://alfardanexchange.com/en/corporate
+15)CAREERS-https://alfardanexchange.com/en/careers
+16)MEDIA-null
+17)-https://alfardanexchange.com/en/blog
+18)-https://alfardanexchange.com/en/news
+19)-https://alfardanexchange.com/en/promotions
+20)-null
+21)Login / Register-https://alfardanexchange.com/coming-soon
+22)عربى-https://alfardanexchange.com/ar/foreign-exchange
+23)-tel:600522265
+24)-mailto:customercare@alfardanexchange.com
+25)currency convertor tool-https://alfardanexchange.com/todays-exchange-rates
+26)Key Facts Statement - FCY-https://alfardanexchange.com/key-facts-statement-fcy
+27)-https://www.facebook.com/alfardanuae/
+28)-https://www.instagram.com/alfardanexchange/
+29)-https://twitter.com/alfardanuae
+30)-https://www.youtube.com/user/AlFardanExchange
+31)-https://www.linkedin.com/company/alfardanexchange/
+32)About Us-https://alfardanexchange.com/en/about
+33)Careers-https://alfardanexchange.com/en/careers
+34)Contact-https://alfardanexchange.com/en/contact
+35)Corporate Sustainability-https://alfardanexchange.com/en/csr
+36)FAQs-https://alfardanexchange.com/en/faqs
+37)Fees & Charges-https://alfardanexchange.com/en/fees-and-charges
+38)Fraud Prevention-https://alfardanexchange.com/en/fraud-prevention
+39)Terms-https://alfardanexchange.com/en/termsandconditions
+40)Privacy Policy-https://alfardanexchange.com/en/privacy-policy
+41)AML Policies-https://alfardanexchange.com/en/aml-policies
+42)-https://alfardanexchange.com/termsandconditions
+43)-https://alfardanexchange.com/privacy-policy
+https://alfardanexchange.com/ - OK
+https://alfardanexchange.com/en/about - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/en/money-transfer - OK
+https://alfardanexchange.com/en/foreign-exchange - OK
+https://alfardanexchange.com/en/value-added-services - OK
+https://alfardanexchange.com/travelez-classic - OK
+https://alfardanexchange.com/travelez-platinum - OK
+https://alfardanexchange.com/en/wps-payroll-service - OK
+https://alfardanexchange.com/en/western-union - OK
+https://alfardanexchange.com/alfaclub - OK
+https://alfardanexchange.com/alfapay - OK
+https://alfardanexchange.com/branches/all - OK
+https://alfardanexchange.com/en/corporate - OK
+https://alfardanexchange.com/en/careers - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/en/blog - OK
+https://alfardanexchange.com/en/news - OK
+https://alfardanexchange.com/en/promotions - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/coming-soon - OK
+https://alfardanexchange.com/ar/foreign-exchange - OK
+tel:600522265 - is a broken link - from catch
+mailto:customercare@alfardanexchange.com - is a broken link - from catch
+https://alfardanexchange.com/todays-exchange-rates - OK
+https://alfardanexchange.com/key-facts-statement-fcy - OK
+https://www.facebook.com/alfardanuae/ - OK
+https://www.instagram.com/alfardanexchange/ - OK
+https://twitter.com/alfardanuae - is a broken link - from catch
+https://www.youtube.com/user/AlFardanExchange - OK
+https://www.linkedin.com/company/alfardanexchange/ - Request denied - is a broken link
+https://alfardanexchange.com/en/about - OK
+https://alfardanexchange.com/en/careers - OK
+https://alfardanexchange.com/en/contact - OK
+https://alfardanexchange.com/en/csr - OK
+https://alfardanexchange.com/en/faqs - OK
+https://alfardanexchange.com/en/fees-and-charges - OK
+https://alfardanexchange.com/en/fraud-prevention - OK
+https://alfardanexchange.com/en/termsandconditions - OK
+https://alfardanexchange.com/en/privacy-policy - OK
+https://alfardanexchange.com/en/aml-policies - OK
+https://alfardanexchange.com/termsandconditions - OK
+https://alfardanexchange.com/privacy-policy - OK
+Services - Value Added Services
+1)Regulated by the Central Bank of the UAE-https://alfardanexchange.com/
+2)ABOUT US-https://alfardanexchange.com/en/about
+3)SERVICES-null
+4)-https://alfardanexchange.com/en/money-transfer
+5)-https://alfardanexchange.com/en/foreign-exchange
+6)-https://alfardanexchange.com/en/value-added-services
+7)-https://alfardanexchange.com/travelez-classic
+8)-https://alfardanexchange.com/travelez-platinum
+9)-https://alfardanexchange.com/en/wps-payroll-service
+10)-https://alfardanexchange.com/en/western-union
+11)-https://alfardanexchange.com/alfaclub
+12)-https://alfardanexchange.com/alfapay
+13)BRANCHES-https://alfardanexchange.com/branches/all
+14)CORPORATE-https://alfardanexchange.com/en/corporate
+15)CAREERS-https://alfardanexchange.com/en/careers
+16)MEDIA-null
+17)-https://alfardanexchange.com/en/blog
+18)-https://alfardanexchange.com/en/news
+19)-https://alfardanexchange.com/en/promotions
+20)-null
+21)Login / Register-https://alfardanexchange.com/coming-soon
+22)عربى-https://alfardanexchange.com/ar/value-added-services
+23)-tel:600522265
+24)-mailto:customercare@alfardanexchange.com
+25)-null
+26)-null
+27)-https://alfardanexchange.com/value-added-services#
+28)branches-https://alfardanexchange.com/value-added-services#
+29)-https://alfardanexchange.com/value-added-services#
+30)PREVIOUS-null
+31)NEXT-null
+32)Key Facts Statement - Value Added Service-https://alfardanexchange.com/key-facts-statement-value-added-service
+33)-https://www.facebook.com/alfardanuae/
+34)-https://www.instagram.com/alfardanexchange/
+35)-https://twitter.com/alfardanuae
+36)-https://www.youtube.com/user/AlFardanExchange
+37)-https://www.linkedin.com/company/alfardanexchange/
+38)About Us-https://alfardanexchange.com/en/about
+39)Careers-https://alfardanexchange.com/en/careers
+40)Contact-https://alfardanexchange.com/en/contact
+41)Corporate Sustainability-https://alfardanexchange.com/en/csr
+42)FAQs-https://alfardanexchange.com/en/faqs
+43)Fees & Charges-https://alfardanexchange.com/en/fees-and-charges
+44)Fraud Prevention-https://alfardanexchange.com/en/fraud-prevention
+45)Terms-https://alfardanexchange.com/en/termsandconditions
+46)Privacy Policy-https://alfardanexchange.com/en/privacy-policy
+47)AML Policies-https://alfardanexchange.com/en/aml-policies
+48)-https://alfardanexchange.com/termsandconditions
+49)-https://alfardanexchange.com/privacy-policy
+https://alfardanexchange.com/ - OK
+https://alfardanexchange.com/en/about - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/en/money-transfer - OK
+https://alfardanexchange.com/en/foreign-exchange - OK
+https://alfardanexchange.com/en/value-added-services - OK
+https://alfardanexchange.com/travelez-classic - OK
+https://alfardanexchange.com/travelez-platinum - OK
+https://alfardanexchange.com/en/wps-payroll-service - OK
+https://alfardanexchange.com/en/western-union - OK
+https://alfardanexchange.com/alfaclub - OK
+https://alfardanexchange.com/alfapay - OK
+https://alfardanexchange.com/branches/all - OK
+https://alfardanexchange.com/en/corporate - OK
+https://alfardanexchange.com/en/careers - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/en/blog - OK
+https://alfardanexchange.com/en/news - OK
+https://alfardanexchange.com/en/promotions - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/coming-soon - OK
+https://alfardanexchange.com/ar/value-added-services - OK
+tel:600522265 - is a broken link - from catch
+mailto:customercare@alfardanexchange.com - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+https://alfardanexchange.com/value-added-services# - OK
+https://alfardanexchange.com/value-added-services# - OK
+https://alfardanexchange.com/value-added-services# - OK
+null - is a broken link - from catch
+null - is a broken link - from catch
+https://alfardanexchange.com/key-facts-statement-value-added-service - OK
+https://www.facebook.com/alfardanuae/ - OK
+https://www.instagram.com/alfardanexchange/ - OK
+https://twitter.com/alfardanuae - is a broken link - from catch
+https://www.youtube.com/user/AlFardanExchange - OK
+https://www.linkedin.com/company/alfardanexchange/ - Request denied - is a broken link
+https://alfardanexchange.com/en/about - OK
+https://alfardanexchange.com/en/careers - OK
+https://alfardanexchange.com/en/contact - OK
+https://alfardanexchange.com/en/csr - OK
+https://alfardanexchange.com/en/faqs - OK
+https://alfardanexchange.com/en/fees-and-charges - OK
+https://alfardanexchange.com/en/fraud-prevention - OK
+https://alfardanexchange.com/en/termsandconditions - OK
+https://alfardanexchange.com/en/privacy-policy - OK
+https://alfardanexchange.com/en/aml-policies - OK
+https://alfardanexchange.com/termsandconditions - OK
+https://alfardanexchange.com/privacy-policy - OK
+Services - Prepaid Card Classic
+1)Regulated by the Central Bank of the UAE-https://alfardanexchange.com/
+2)ABOUT US-https://alfardanexchange.com/en/about
+3)SERVICES-null
+4)-https://alfardanexchange.com/en/money-transfer
+5)-https://alfardanexchange.com/en/foreign-exchange
+6)-https://alfardanexchange.com/en/value-added-services
+7)-https://alfardanexchange.com/travelez-classic
+8)-https://alfardanexchange.com/travelez-platinum
+9)-https://alfardanexchange.com/en/wps-payroll-service
+10)-https://alfardanexchange.com/en/western-union
+11)-https://alfardanexchange.com/alfaclub
+12)-https://alfardanexchange.com/alfapay
+13)BRANCHES-https://alfardanexchange.com/branches/all
+14)CORPORATE-https://alfardanexchange.com/en/corporate
+15)CAREERS-https://alfardanexchange.com/en/careers
+16)MEDIA-null
+17)-https://alfardanexchange.com/en/blog
+18)-https://alfardanexchange.com/en/news
+19)-https://alfardanexchange.com/en/promotions
+20)Login / Register-https://alfardanexchange.com/coming-soon
+21)عربى-https://alfardanexchange.com/ar/travelez-classic
+22)-https://alfardanexchange.com/travelez-classic
+23)Reloadable-null
+24)Personalized-null
+25)Accepted worldwide-null
+26)Smart-null
+27)Rewards-null
+28)Click here-https://alfardanexchange.com/how-to-activate-my-travelez-plus-card
+29)for steps to activate your card-https://alfardanexchange.com/how-to-activate-my-travelez-plus-card
+30)Manage Your Account-https://login.travelezcard.com/login
+31)Request Card-null
+32)Al Fardan
+Exchange branch-https://alfardanexchange.com/branches/all
+33)600 5222 65-tel:600522265
+34)support@travelezcard.com-mailto:support@travelezcard.com
+35)+971 600 547774-tel:+971600547774
+36)Rates & Fees-https://alfardanexchange.com/travelez-classic/rate-and-fees
+37)Terms and Conditions-https://alfardanexchange.com/travelez-classic/terms-and-conditions
+38)Privacy Policy-https://alfardanexchange.com/travelez-classic/privacy-policy
+39)-https://apps.apple.com/ae/app/travelezplus/id961707297
+40)-https://play.google.com/store/apps/details?id=com.travelez.mobilebanking&hl=en&gl=US
+41)Key Facts Statement - Prepaid Cards-https://alfardanexchange.com/key-facts-statement-prepaid-cards
+42)-https://alfardanexchange.com/
+43)-https://www.facebook.com/alfardanuae/
+44)-https://www.instagram.com/alfardanexchange/
+45)-https://twitter.com/alfardanuae
+46)-https://www.youtube.com/user/AlFardanExchange
+47)-https://www.linkedin.com/company/alfardanexchange/
+48)About Us-https://alfardanexchange.com/en/about
+49)Careers-https://alfardanexchange.com/en/careers
+50)Contact-https://alfardanexchange.com/en/contact
+51)Corporate Sustainability-https://alfardanexchange.com/en/csr
+52)FAQs-https://alfardanexchange.com/en/faqs
+53)Fees & Charges-https://alfardanexchange.com/fees-and-charges
+54)Fraud Prevention-https://alfardanexchange.com/en/fraud-prevention
+55)Terms-https://alfardanexchange.com/en/termsandconditions
+56)Privacy Policy-https://alfardanexchange.com/en/privacy-policy
+57)AML Policies-https://alfardanexchange.com/en/aml-policies
+58)-tel:600522265
+59)-mailto:customercare@alfardanexchange.com
+https://alfardanexchange.com/ - OK
+https://alfardanexchange.com/en/about - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/en/money-transfer - OK
+https://alfardanexchange.com/en/foreign-exchange - OK
+https://alfardanexchange.com/en/value-added-services - OK
+https://alfardanexchange.com/travelez-classic - OK
+https://alfardanexchange.com/travelez-platinum - OK
+https://alfardanexchange.com/en/wps-payroll-service - OK
+https://alfardanexchange.com/en/western-union - OK
+https://alfardanexchange.com/alfaclub - OK
+https://alfardanexchange.com/alfapay - OK
+https://alfardanexchange.com/branches/all - OK
+https://alfardanexchange.com/en/corporate - OK
+https://alfardanexchange.com/en/careers - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/en/blog - OK
+https://alfardanexchange.com/en/news - OK
+https://alfardanexchange.com/en/promotions - OK
+https://alfardanexchange.com/coming-soon - OK
+https://alfardanexchange.com/ar/travelez-classic - OK
+https://alfardanexchange.com/travelez-classic - OK
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+https://alfardanexchange.com/how-to-activate-my-travelez-plus-card - OK
+https://alfardanexchange.com/how-to-activate-my-travelez-plus-card - OK
+https://login.travelezcard.com/login - Found - is a broken link
+null - is a broken link - from catch
+https://alfardanexchange.com/branches/all - OK
+tel:600522265 - is a broken link - from catch
+mailto:support@travelezcard.com - is a broken link - from catch
+tel:+971600547774 - is a broken link - from catch
+https://alfardanexchange.com/travelez-classic/rate-and-fees - OK
+https://alfardanexchange.com/travelez-classic/terms-and-conditions - OK
+https://alfardanexchange.com/travelez-classic/privacy-policy - OK
+https://apps.apple.com/ae/app/travelezplus/id961707297 - OK
+https://play.google.com/store/apps/details?id=com.travelez.mobilebanking&hl=en&gl=US - Not Found - is a broken link
+https://alfardanexchange.com/key-facts-statement-prepaid-cards - OK
+https://alfardanexchange.com/ - OK
+https://www.facebook.com/alfardanuae/ - OK
+https://www.instagram.com/alfardanexchange/ - OK
+https://twitter.com/alfardanuae - is a broken link - from catch
+https://www.youtube.com/user/AlFardanExchange - OK
+https://www.linkedin.com/company/alfardanexchange/ - Request denied - is a broken link
+https://alfardanexchange.com/en/about - OK
+https://alfardanexchange.com/en/careers - OK
+https://alfardanexchange.com/en/contact - OK
+https://alfardanexchange.com/en/csr - OK
+https://alfardanexchange.com/en/faqs - OK
+https://alfardanexchange.com/fees-and-charges - OK
+https://alfardanexchange.com/en/fraud-prevention - OK
+https://alfardanexchange.com/en/termsandconditions - OK
+https://alfardanexchange.com/en/privacy-policy - OK
+https://alfardanexchange.com/en/aml-policies - OK
+tel:600522265 - is a broken link - from catch
+mailto:customercare@alfardanexchange.com - is a broken link - from catch
+Services - Prepaid Card Platinum
+1)Regulated by the Central Bank of the UAE-https://alfardanexchange.com/
+2)ABOUT US-https://alfardanexchange.com/en/about
+3)SERVICES-null
+4)-https://alfardanexchange.com/en/money-transfer
+5)-https://alfardanexchange.com/en/foreign-exchange
+6)-https://alfardanexchange.com/en/value-added-services
+7)-https://alfardanexchange.com/travelez-classic
+8)-https://alfardanexchange.com/travelez-platinum
+9)-https://alfardanexchange.com/en/wps-payroll-service
+10)-https://alfardanexchange.com/en/western-union
+11)-https://alfardanexchange.com/alfaclub
+12)-https://alfardanexchange.com/alfapay
+13)BRANCHES-https://alfardanexchange.com/branches/all
+14)CORPORATE-https://alfardanexchange.com/en/corporate
+15)CAREERS-https://alfardanexchange.com/en/careers
+16)MEDIA-null
+17)-https://alfardanexchange.com/en/blog
+18)-https://alfardanexchange.com/en/news
+19)-https://alfardanexchange.com/en/promotions
+20)Login / Register-https://alfardanexchange.com/coming-soon
+21)عربى-https://alfardanexchange.com/ar/travelez-platinum
+22)-https://alfardanexchange.com/travelez-platinum
+23)20 Multi-currency prepaid card-null
+24)Load currencies at 80+ Branches-null
+25)Reloadable options in branches-null
+26)Enjoy the benefit of locked-in exchange rates.-null
+27)3DS (2.0) - Secure Online-null
+28)Contactless - Tap and Pay-null
+29)Option to personalize - Name card-null
+30)Mobile App with touch id/facial recognition-null
+31)Fly further with Visa | Qatar Airways-https://www.qatarairways.com/en-ae/offers/cug/visa-offer.html?cid=RDAE519280
+32)Terms & Conditions-null
+33)Terms & Conditions-null
+34)Terms & Conditions-https://alfardanexchange.com/travelez-platinum/movie-ticket-discount-terms-and-conditions
+35)Terms & Conditions-https://alfardanexchange.com/travelez-platinum/extended-warranty-terms-and-conditions
+36)Terms & Conditions-https://alfardanexchange.com/travelez-platinum/buyers-protection-terms-and-conditions
+37)Al Fardan
+Exchange branch-https://alfardanexchange.com/branches/all
+38)600 5222 65-tel:600522265
+39)support@travelezcard.com-mailto:support@travelezcard.com
+40)+971 600 547774-tel:+971600547774
+41)Rates & Fees-null
+42)Frequently Asked Questions (FAQ)-null
+43)Terms and Conditions-https://alfardanexchange.com/travelez-platinum/terms-and-conditions
+44)Privacy Policy-https://alfardanexchange.com/travelez-platinum/privacy-policy
+45)-https://apps.apple.com/us/app/travelez-plus-platinum/id1590728322
+46)-https://play.google.com/store/apps/details?id=com.afex.travelezplusplatinum
+47)Key Facts Statement - Prepaid Cards-https://alfardanexchange.com/key-facts-statement-prepaid-cards
+48)-https://alfardanexchange.com/
+49)-https://www.facebook.com/alfardanuae/
+50)-https://www.instagram.com/alfardanexchange/
+51)-https://twitter.com/alfardanuae
+52)-https://www.youtube.com/user/AlFardanExchange
+53)-https://www.linkedin.com/company/alfardanexchange/
+54)About Us-https://alfardanexchange.com/en/about
+55)Careers-https://alfardanexchange.com/en/careers
+56)Contact-https://alfardanexchange.com/en/contact
+57)Corporate Sustainability-https://alfardanexchange.com/en/csr
+58)FAQs-https://alfardanexchange.com/en/faqs
+59)Fees & Charges-https://alfardanexchange.com/fees-and-charges
+60)Fraud Prevention-https://alfardanexchange.com/en/fraud-prevention
+61)Terms-https://alfardanexchange.com/en/termsandconditions
+62)Privacy Policy-https://alfardanexchange.com/en/privacy-policy
+63)AML Policies-https://alfardanexchange.com/en/aml-policies
+64)-tel:600522265
+65)-mailto:customercare@alfardanexchange.com
+66)-https://www.myvisacardportal.com/cemeabenefits/en_ae/landing
+67)-null
+68)-null
+69)-null
+70)-null
+71)-null
+72)-null
+73)-https://alfardanexchange.com/travelez-platinum
+74)-null
+75)-null
+76)-null
+77)-null
+78)-null
+79)-https://protect-eu.mimecast.com/s/9Y3bCPMmJHA5pmU16_tO?domain=travelezplus.alfardanexchange.com
+80)-null
+81)-https://alfardanexchange.com/travelez-platinum
+82)-null
+83)-null
+84)-null
+85)-null
+86)-null
+87)-null
+88)-null
+89)-null
+90)-null
+91)-null
+92)-null
+93)-https://www.alfardanexchange.com/platinum
+94)-null
+95)-null
+96)-https://www.alfardanexchange.com/platinum
+97)-null
+98)-null
+99)-tel:+971600547774
+100)-null
+101)-tel:+971600547774
+102)-null
+103)-https://www.alfardanexchange.com/platinum
+104)-mailto:support@travelezcard.com
+105)-null
+106)-null
+107)-null
+108)-null
+109)-null
+110)-null
+111)-null
+112)-null
+113)-null
+114)-null
+115)-null
+116)-null
+117)-null
+118)-null
+119)-null
+120)-null
+121)-null
+122)-null
+123)-null
+124)-null
+125)-null
+126)-null
+127)-null
+https://alfardanexchange.com/ - OK
+https://alfardanexchange.com/en/about - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/en/money-transfer - OK
+https://alfardanexchange.com/en/foreign-exchange - OK
+https://alfardanexchange.com/en/value-added-services - OK
+https://alfardanexchange.com/travelez-classic - OK
+https://alfardanexchange.com/travelez-platinum - OK
+https://alfardanexchange.com/en/wps-payroll-service - OK
+https://alfardanexchange.com/en/western-union - OK
+https://alfardanexchange.com/alfaclub - OK
+https://alfardanexchange.com/alfapay - OK
+https://alfardanexchange.com/branches/all - OK
+https://alfardanexchange.com/en/corporate - OK
+https://alfardanexchange.com/en/careers - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/en/blog - OK
+https://alfardanexchange.com/en/news - OK
+https://alfardanexchange.com/en/promotions - OK
+https://alfardanexchange.com/coming-soon - OK
+https://alfardanexchange.com/ar/travelez-platinum - OK
+https://alfardanexchange.com/travelez-platinum - OK
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+https://www.qatarairways.com/en-ae/offers/cug/visa-offer.html?cid=RDAE519280 - Forbidden - is a broken link
+null - is a broken link - from catch
+null - is a broken link - from catch
+https://alfardanexchange.com/travelez-platinum/movie-ticket-discount-terms-and-conditions - OK
+https://alfardanexchange.com/travelez-platinum/extended-warranty-terms-and-conditions - OK
+https://alfardanexchange.com/travelez-platinum/buyers-protection-terms-and-conditions - OK
+https://alfardanexchange.com/branches/all - OK
+tel:600522265 - is a broken link - from catch
+mailto:support@travelezcard.com - is a broken link - from catch
+tel:+971600547774 - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+https://alfardanexchange.com/travelez-platinum/terms-and-conditions - OK
+https://alfardanexchange.com/travelez-platinum/privacy-policy - OK
+https://apps.apple.com/us/app/travelez-plus-platinum/id1590728322 - OK
+https://play.google.com/store/apps/details?id=com.afex.travelezplusplatinum - OK
+https://alfardanexchange.com/key-facts-statement-prepaid-cards - OK
+https://alfardanexchange.com/ - OK
+https://www.facebook.com/alfardanuae/ - OK
+https://www.instagram.com/alfardanexchange/ - OK
+https://twitter.com/alfardanuae - is a broken link - from catch
+https://www.youtube.com/user/AlFardanExchange - OK
+https://www.linkedin.com/company/alfardanexchange/ - Request denied - is a broken link
+https://alfardanexchange.com/en/about - OK
+https://alfardanexchange.com/en/careers - OK
+https://alfardanexchange.com/en/contact - OK
+https://alfardanexchange.com/en/csr - OK
+https://alfardanexchange.com/en/faqs - OK
+https://alfardanexchange.com/fees-and-charges - OK
+https://alfardanexchange.com/en/fraud-prevention - OK
+https://alfardanexchange.com/en/termsandconditions - OK
+https://alfardanexchange.com/en/privacy-policy - OK
+https://alfardanexchange.com/en/aml-policies - OK
+tel:600522265 - is a broken link - from catch
+mailto:customercare@alfardanexchange.com - is a broken link - from catch
+https://www.myvisacardportal.com/cemeabenefits/en_ae/landing - OK
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+https://alfardanexchange.com/travelez-platinum - OK
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+https://protect-eu.mimecast.com/s/9Y3bCPMmJHA5pmU16_tO?domain=travelezplus.alfardanexchange.com - is a broken link - from catch
+null - is a broken link - from catch
+https://alfardanexchange.com/travelez-platinum - OK
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+https://www.alfardanexchange.com/platinum - OK
+null - is a broken link - from catch
+null - is a broken link - from catch
+https://www.alfardanexchange.com/platinum - OK
+null - is a broken link - from catch
+null - is a broken link - from catch
+tel:+971600547774 - is a broken link - from catch
+null - is a broken link - from catch
+tel:+971600547774 - is a broken link - from catch
+null - is a broken link - from catch
+https://www.alfardanexchange.com/platinum - OK
+mailto:support@travelezcard.com - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+Services - WPS & Payroll Service
+1)Regulated by the Central Bank of the UAE-https://alfardanexchange.com/
+2)ABOUT US-https://alfardanexchange.com/en/about
+3)SERVICES-null
+4)-https://alfardanexchange.com/en/money-transfer
+5)-https://alfardanexchange.com/en/foreign-exchange
+6)-https://alfardanexchange.com/en/value-added-services
+7)-https://alfardanexchange.com/travelez-classic
+8)-https://alfardanexchange.com/travelez-platinum
+9)-https://alfardanexchange.com/en/wps-payroll-service
+10)-https://alfardanexchange.com/en/western-union
+11)-https://alfardanexchange.com/alfaclub
+12)-https://alfardanexchange.com/alfapay
+13)BRANCHES-https://alfardanexchange.com/branches/all
+14)CORPORATE-https://alfardanexchange.com/en/corporate
+15)CAREERS-https://alfardanexchange.com/en/careers
+16)MEDIA-null
+17)-https://alfardanexchange.com/en/blog
+18)-https://alfardanexchange.com/en/news
+19)-https://alfardanexchange.com/en/promotions
+20)-null
+21)Login / Register-https://alfardanexchange.com/coming-soon
+22)عربى-https://alfardanexchange.com/ar/wps-payroll-service
+23)-tel:600522265
+24)-mailto:customercare@alfardanexchange.com
+25)Corporate Login-https://mea.thecardservicesonline.com/mebasecorp/alfcorp/html
+26)Customer Login-https://mea.thecardservicesonline.com/mebasecustomer/
+27)Terms and Conditions-https://alfardanexchange.com/payez-payroll-card-tnc
+28)WPS Application Form-null
+29)KEY FACTS STATEMENT – Wages Protection System (WPS)-https://alfardanexchange.com/key-facts-statement-wps
+30)-https://www.facebook.com/alfardanuae/
+31)-https://www.instagram.com/alfardanexchange/
+32)-https://twitter.com/alfardanuae
+33)-https://www.youtube.com/user/AlFardanExchange
+34)-https://www.linkedin.com/company/alfardanexchange/
+35)About Us-https://alfardanexchange.com/en/about
+36)Careers-https://alfardanexchange.com/en/careers
+37)Contact-https://alfardanexchange.com/en/contact
+38)Corporate Sustainability-https://alfardanexchange.com/en/csr
+39)FAQs-https://alfardanexchange.com/en/faqs
+40)Fees & Charges-https://alfardanexchange.com/en/fees-and-charges
+41)Fraud Prevention-https://alfardanexchange.com/en/fraud-prevention
+42)Terms-https://alfardanexchange.com/en/termsandconditions
+43)Privacy Policy-https://alfardanexchange.com/en/privacy-policy
+44)AML Policies-https://alfardanexchange.com/en/aml-policies
+45)-https://alfardanexchange.com/termsandconditions
+46)-https://alfardanexchange.com/privacy-policy
+https://alfardanexchange.com/ - OK
+https://alfardanexchange.com/en/about - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/en/money-transfer - OK
+https://alfardanexchange.com/en/foreign-exchange - OK
+https://alfardanexchange.com/en/value-added-services - OK
+https://alfardanexchange.com/travelez-classic - OK
+https://alfardanexchange.com/travelez-platinum - OK
+https://alfardanexchange.com/en/wps-payroll-service - OK
+https://alfardanexchange.com/en/western-union - OK
+https://alfardanexchange.com/alfaclub - OK
+https://alfardanexchange.com/alfapay - OK
+https://alfardanexchange.com/branches/all - OK
+https://alfardanexchange.com/en/corporate - OK
+https://alfardanexchange.com/en/careers - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/en/blog - OK
+https://alfardanexchange.com/en/news - OK
+https://alfardanexchange.com/en/promotions - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/coming-soon - OK
+https://alfardanexchange.com/ar/wps-payroll-service - OK
+tel:600522265 - is a broken link - from catch
+mailto:customercare@alfardanexchange.com - is a broken link - from catch
+https://mea.thecardservicesonline.com/mebasecorp/alfcorp/html - null
+https://mea.thecardservicesonline.com/mebasecustomer/ - null
+https://alfardanexchange.com/payez-payroll-card-tnc - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/key-facts-statement-wps - OK
+https://www.facebook.com/alfardanuae/ - OK
+https://www.instagram.com/alfardanexchange/ - OK
+https://twitter.com/alfardanuae - is a broken link - from catch
+https://www.youtube.com/user/AlFardanExchange - OK
+https://www.linkedin.com/company/alfardanexchange/ - Request denied - is a broken link
+https://alfardanexchange.com/en/about - OK
+https://alfardanexchange.com/en/careers - OK
+https://alfardanexchange.com/en/contact - OK
+https://alfardanexchange.com/en/csr - OK
+https://alfardanexchange.com/en/faqs - OK
+https://alfardanexchange.com/en/fees-and-charges - OK
+https://alfardanexchange.com/en/fraud-prevention - OK
+https://alfardanexchange.com/en/termsandconditions - OK
+https://alfardanexchange.com/en/privacy-policy - OK
+https://alfardanexchange.com/en/aml-policies - OK
+https://alfardanexchange.com/termsandconditions - OK
+https://alfardanexchange.com/privacy-policy - OK
+Services - WPS & Payroll Service
+1)Regulated by the Central Bank of the UAE-https://alfardanexchange.com/
+2)ABOUT US-https://alfardanexchange.com/en/about
+3)SERVICES-null
+4)-https://alfardanexchange.com/en/money-transfer
+5)-https://alfardanexchange.com/en/foreign-exchange
+6)-https://alfardanexchange.com/en/value-added-services
+7)-https://alfardanexchange.com/travelez-classic
+8)-https://alfardanexchange.com/travelez-platinum
+9)-https://alfardanexchange.com/en/wps-payroll-service
+10)-https://alfardanexchange.com/en/western-union
+11)-https://alfardanexchange.com/alfaclub
+12)-https://alfardanexchange.com/alfapay
+13)BRANCHES-https://alfardanexchange.com/branches/all
+14)CORPORATE-https://alfardanexchange.com/en/corporate
+15)CAREERS-https://alfardanexchange.com/en/careers
+16)MEDIA-null
+17)-https://alfardanexchange.com/en/blog
+18)-https://alfardanexchange.com/en/news
+19)-https://alfardanexchange.com/en/promotions
+20)-null
+21)Login / Register-https://alfardanexchange.com/coming-soon
+22)عربى-https://alfardanexchange.com/ar/wps-payroll-service
+23)-tel:600522265
+24)-mailto:customercare@alfardanexchange.com
+25)Corporate Login-https://mea.thecardservicesonline.com/mebasecorp/alfcorp/html
+26)Customer Login-https://mea.thecardservicesonline.com/mebasecustomer/
+27)Terms and Conditions-https://alfardanexchange.com/payez-payroll-card-tnc
+28)WPS Application Form-null
+29)KEY FACTS STATEMENT – Wages Protection System (WPS)-https://alfardanexchange.com/key-facts-statement-wps
+30)-https://www.facebook.com/alfardanuae/
+31)-https://www.instagram.com/alfardanexchange/
+32)-https://twitter.com/alfardanuae
+33)-https://www.youtube.com/user/AlFardanExchange
+34)-https://www.linkedin.com/company/alfardanexchange/
+35)About Us-https://alfardanexchange.com/en/about
+36)Careers-https://alfardanexchange.com/en/careers
+37)Contact-https://alfardanexchange.com/en/contact
+38)Corporate Sustainability-https://alfardanexchange.com/en/csr
+39)FAQs-https://alfardanexchange.com/en/faqs
+40)Fees & Charges-https://alfardanexchange.com/en/fees-and-charges
+41)Fraud Prevention-https://alfardanexchange.com/en/fraud-prevention
+42)Terms-https://alfardanexchange.com/en/termsandconditions
+43)Privacy Policy-https://alfardanexchange.com/en/privacy-policy
+44)AML Policies-https://alfardanexchange.com/en/aml-policies
+45)-https://alfardanexchange.com/termsandconditions
+46)-https://alfardanexchange.com/privacy-policy
+https://alfardanexchange.com/ - OK
+https://alfardanexchange.com/en/about - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/en/money-transfer - OK
+https://alfardanexchange.com/en/foreign-exchange - OK
+https://alfardanexchange.com/en/value-added-services - OK
+https://alfardanexchange.com/travelez-classic - OK
+https://alfardanexchange.com/travelez-platinum - OK
+https://alfardanexchange.com/en/wps-payroll-service - OK
+https://alfardanexchange.com/en/western-union - OK
+https://alfardanexchange.com/alfaclub - OK
+https://alfardanexchange.com/alfapay - OK
+https://alfardanexchange.com/branches/all - OK
+https://alfardanexchange.com/en/corporate - OK
+https://alfardanexchange.com/en/careers - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/en/blog - OK
+https://alfardanexchange.com/en/news - OK
+https://alfardanexchange.com/en/promotions - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/coming-soon - OK
+https://alfardanexchange.com/ar/wps-payroll-service - OK
+tel:600522265 - is a broken link - from catch
+mailto:customercare@alfardanexchange.com - is a broken link - from catch
+https://mea.thecardservicesonline.com/mebasecorp/alfcorp/html - null
+https://mea.thecardservicesonline.com/mebasecustomer/ - null
+https://alfardanexchange.com/payez-payroll-card-tnc - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/key-facts-statement-wps - OK
+https://www.facebook.com/alfardanuae/ - OK
+https://www.instagram.com/alfardanexchange/ - OK
+https://twitter.com/alfardanuae - is a broken link - from catch
+https://www.youtube.com/user/AlFardanExchange - OK
+https://www.linkedin.com/company/alfardanexchange/ - Request denied - is a broken link
+https://alfardanexchange.com/en/about - OK
+https://alfardanexchange.com/en/careers - OK
+https://alfardanexchange.com/en/contact - OK
+https://alfardanexchange.com/en/csr - OK
+https://alfardanexchange.com/en/faqs - OK
+https://alfardanexchange.com/en/fees-and-charges - OK
+https://alfardanexchange.com/en/fraud-prevention - OK
+https://alfardanexchange.com/en/termsandconditions - OK
+https://alfardanexchange.com/en/privacy-policy - OK
+https://alfardanexchange.com/en/aml-policies - OK
+https://alfardanexchange.com/termsandconditions - OK
+https://alfardanexchange.com/privacy-policy - OK
+AlphaClub
+1)Regulated by the Central Bank of the UAE-https://alfardanexchange.com/
+2)ABOUT US-https://alfardanexchange.com/en/about
+3)SERVICES-null
+4)-https://alfardanexchange.com/en/money-transfer
+5)-https://alfardanexchange.com/en/foreign-exchange
+6)-https://alfardanexchange.com/en/value-added-services
+7)-https://alfardanexchange.com/travelez-classic
+8)-https://alfardanexchange.com/travelez-platinum
+9)-https://alfardanexchange.com/en/wps-payroll-service
+10)-https://alfardanexchange.com/en/western-union
+11)-https://alfardanexchange.com/alfaclub
+12)-https://alfardanexchange.com/alfapay
+13)BRANCHES-https://alfardanexchange.com/branches/all
+14)CORPORATE-https://alfardanexchange.com/en/corporate
+15)CAREERS-https://alfardanexchange.com/en/careers
+16)MEDIA-null
+17)-https://alfardanexchange.com/en/blog
+18)-https://alfardanexchange.com/en/news
+19)-https://alfardanexchange.com/en/promotions
+20)Login / Register-https://alfardanexchange.com/coming-soon
+21)Terms and Conditions Click here-null
+22)How do I become an AlfaClub member?-null
+23)Do I have to pay a membership fee?-null
+24)What are the benefits of membership?-null
+25)Will I receive a membership card?-null
+26)How long are the AlfaClub offers valid for?-null
+27)Where can I learn more about the AlfaClub programme?-null
+28)-https://alfardanexchange.com/alfaclub
+29)Who can enrol into the AlfaClub programme?-null
+30)How can I contact AlfaClub for support?-null
+31)-mailto:customercare@alfardanexchange.com
+32)Is the programme open only to the customers of Al Fardan Exchange?-null
+33)Where can I download AlfaClub app?-null
+34)-http://onelink.to/z8zkv5
+35)How do I redeem my offer?-null
+36)Is it possible to redeem my reward in cash?-null
+37)Can I see my immediate savings on the AlfaClub App?-null
+38)Can I see my total savings for the year?-null
+39)Which languages can I use the AlfaClub app in?-null
+40)How can I login to AlfaClub app?-null
+41)Do I need an internet connection in order to use the app and offers?-null
+42)-https://alfardanexchange.com/
+43)-https://www.facebook.com/alfardanuae/
+44)-https://www.instagram.com/alfardanexchange/
+45)-https://twitter.com/alfardanuae
+46)-https://www.youtube.com/user/AlFardanExchange
+47)-https://www.linkedin.com/company/alfardanexchange/
+48)About Us-https://alfardanexchange.com/en/about
+49)Careers-https://alfardanexchange.com/en/careers
+50)Contact-https://alfardanexchange.com/en/contact
+51)Corporate Sustainability-https://alfardanexchange.com/en/csr
+52)FAQs-https://alfardanexchange.com/en/faqs
+53)Fees & Charges-https://alfardanexchange.com/fees-and-charges
+54)Fraud Prevention-https://alfardanexchange.com/en/fraud-prevention
+55)Terms-https://alfardanexchange.com/en/termsandconditions
+56)Privacy Policy-https://alfardanexchange.com/en/privacy-policy
+57)AML Policies-https://alfardanexchange.com/en/aml-policies
+58)-tel:600522265
+59)-mailto:customercare@alfardanexchange.com
+https://alfardanexchange.com/ - OK
+https://alfardanexchange.com/en/about - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/en/money-transfer - OK
+https://alfardanexchange.com/en/foreign-exchange - OK
+https://alfardanexchange.com/en/value-added-services - OK
+https://alfardanexchange.com/travelez-classic - OK
+https://alfardanexchange.com/travelez-platinum - OK
+https://alfardanexchange.com/en/wps-payroll-service - OK
+https://alfardanexchange.com/en/western-union - OK
+https://alfardanexchange.com/alfaclub - OK
+https://alfardanexchange.com/alfapay - OK
+https://alfardanexchange.com/branches/all - OK
+https://alfardanexchange.com/en/corporate - OK
+https://alfardanexchange.com/en/careers - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/en/blog - OK
+https://alfardanexchange.com/en/news - OK
+https://alfardanexchange.com/en/promotions - OK
+https://alfardanexchange.com/coming-soon - OK
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+https://alfardanexchange.com/alfaclub - OK
+null - is a broken link - from catch
+null - is a broken link - from catch
+mailto:customercare@alfardanexchange.com - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+http://onelink.to/z8zkv5 - OK
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+https://alfardanexchange.com/ - OK
+https://www.facebook.com/alfardanuae/ - OK
+https://www.instagram.com/alfardanexchange/ - OK
+https://twitter.com/alfardanuae - is a broken link - from catch
+https://www.youtube.com/user/AlFardanExchange - OK
+https://www.linkedin.com/company/alfardanexchange/ - Request denied - is a broken link
+https://alfardanexchange.com/en/about - OK
+https://alfardanexchange.com/en/careers - OK
+https://alfardanexchange.com/en/contact - OK
+https://alfardanexchange.com/en/csr - OK
+https://alfardanexchange.com/en/faqs - OK
+https://alfardanexchange.com/fees-and-charges - OK
+https://alfardanexchange.com/en/fraud-prevention - OK
+https://alfardanexchange.com/en/termsandconditions - OK
+https://alfardanexchange.com/en/privacy-policy - OK
+https://alfardanexchange.com/en/aml-policies - OK
+tel:600522265 - is a broken link - from catch
+mailto:customercare@alfardanexchange.com - is a broken link - from catch
+AlphaPay
+1)Regulated by the Central Bank of the UAE-https://alfardanexchange.com/
+2)ABOUT US-https://alfardanexchange.com/en/about
+3)SERVICES-null
+4)-https://alfardanexchange.com/en/money-transfer
+5)-https://alfardanexchange.com/en/foreign-exchange
+6)-https://alfardanexchange.com/en/value-added-services
+7)-https://alfardanexchange.com/travelez-classic
+8)-https://alfardanexchange.com/travelez-platinum
+9)-https://alfardanexchange.com/en/wps-payroll-service
+10)-https://alfardanexchange.com/en/western-union
+11)-https://alfardanexchange.com/alfaclub
+12)-https://alfardanexchange.com/alfapay
+13)BRANCHES-https://alfardanexchange.com/branches/all
+14)CORPORATE-https://alfardanexchange.com/en/corporate
+15)CAREERS-https://alfardanexchange.com/en/careers
+16)MEDIA-null
+17)-https://alfardanexchange.com/en/blog
+18)-https://alfardanexchange.com/en/news
+19)-https://alfardanexchange.com/en/promotions
+20)Login / Register-https://alfardanexchange.com/coming-soon
+21)عربى-https://alfardanexchange.com/ar/alfapay
+22)-https://apps.apple.com/in/app/alfapay/id1606703014
+23)-https://play.google.com/store/apps/details?id=com.alfardanexchange.alfapay&hl=en&gl=US
+24)-null
+25)-null
+26)-null
+27)-https://alfardanexchange.com/
+28)-https://www.facebook.com/alfardanuae/
+29)-https://www.instagram.com/alfardanexchange/
+30)-https://twitter.com/alfardanuae
+31)-https://www.youtube.com/user/AlFardanExchange
+32)-https://www.linkedin.com/company/alfardanexchange/
+33)About Us-https://alfardanexchange.com/en/about
+34)Careers-https://alfardanexchange.com/en/careers
+35)Contact-https://alfardanexchange.com/en/contact
+36)Corporate Sustainability-https://alfardanexchange.com/en/csr
+37)FAQs-https://alfardanexchange.com/en/faqs
+38)Fees & Charges-https://alfardanexchange.com/fees-and-charges
+39)Fraud Prevention-https://alfardanexchange.com/en/fraud-prevention
+40)Terms-https://alfardanexchange.com/en/termsandconditions
+41)Privacy Policy-https://alfardanexchange.com/en/privacy-policy
+42)AML Policies-https://alfardanexchange.com/en/aml-policies
+43)-tel:600522265
+44)-mailto:customercare@alfardanexchange.com
+https://alfardanexchange.com/ - OK
+https://alfardanexchange.com/en/about - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/en/money-transfer - OK
+https://alfardanexchange.com/en/foreign-exchange - OK
+https://alfardanexchange.com/en/value-added-services - OK
+https://alfardanexchange.com/travelez-classic - OK
+https://alfardanexchange.com/travelez-platinum - OK
+https://alfardanexchange.com/en/wps-payroll-service - OK
+https://alfardanexchange.com/en/western-union - OK
+https://alfardanexchange.com/alfaclub - OK
+https://alfardanexchange.com/alfapay - OK
+https://alfardanexchange.com/branches/all - OK
+https://alfardanexchange.com/en/corporate - OK
+https://alfardanexchange.com/en/careers - OK
+null - is a broken link - from catch
+https://alfardanexchange.com/en/blog - OK
+https://alfardanexchange.com/en/news - OK
+https://alfardanexchange.com/en/promotions - OK
+https://alfardanexchange.com/coming-soon - OK
+https://alfardanexchange.com/ar/alfapay - OK
+https://apps.apple.com/in/app/alfapay/id1606703014 - OK
+https://play.google.com/store/apps/details?id=com.alfardanexchange.alfapay&hl=en&gl=US - OK
+null - is a broken link - from catch
+null - is a broken link - from catch
+null - is a broken link - from catch
+https://alfardanexchange.com/ - OK
+https://www.facebook.com/alfardanuae/ - OK
+https://www.instagram.com/alfardanexchange/ - OK
+https://twitter.com/alfardanuae - is a broken link - from catch
+https://www.youtube.com/user/AlFardanExchange - OK
+https://www.linkedin.com/company/alfardanexchange/ - Request denied - is a broken link
+https://alfardanexchange.com/en/about - OK
+https://alfardanexchange.com/en/careers - OK
+https://alfardanexchange.com/en/contact - OK
+https://alfardanexchange.com/en/csr - OK
+https://alfardanexchange.com/en/faqs - OK
+https://alfardanexchange.com/fees-and-charges - OK
+https://alfardanexchange.com/en/fraud-prevention - OK
+https://alfardanexchange.com/en/termsandconditions - OK
+https://alfardanexchange.com/en/privacy-policy - OK
+https://alfardanexchange.com/en/aml-policies - OK
+tel:600522265 - is a broken link - from catch
+mailto:customercare@alfardanexchange.com - is a broken link - from catch
+]]></system-out>
+    <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+Aug 28, 2023 3:50:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 116, so returning the closest version found: 115
+]]></system-err>
+  </testcase>
+</testsuite>
